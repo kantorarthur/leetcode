@@ -1,0 +1,11 @@
+Valid Palindrome III - We will use a DFS function. 
+We will store the result of each DFS function in a dictionary, so we don't check the same
+paths twice
+
+We will check every possible scenario (that means either left + 1 or right - 1)
+
+Time complexity: O(N^2 * k)
+Space complexity: O(N^2 * k)
+
+
+https://algo.monster/liteproblems/1216

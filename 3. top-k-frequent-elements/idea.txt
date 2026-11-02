@@ -1,0 +1,11 @@
+Time complexity: O(N)
+Space compelxity: O(N)
+
+Idea:
+
+Iterate through the in array once, count the frequency of
+the numbers in a map, then iterate the map and append the
+numbers to frequency index in a new list
+
+at finale, iterate from the end of the bucket list and
+append the elements in a return list until ret_list size   matches k

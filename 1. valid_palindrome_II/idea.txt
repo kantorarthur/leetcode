@@ -1,0 +1,5 @@
+Valid Palindrome II - At the first miss-match you check both possibilities (left + 1) (right - 1) until the end 
+Example:  "abbab" -- If you check just "remove first a", you don't get palindrome
+
+
+https://leetcode.com/problems/valid-palindrome-ii/
