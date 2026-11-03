@@ -1,0 +1,7 @@
+Build max heap
+
+And then place the max value k times on position 0
+
+Space: O(1)
+Time: O(n + klogn)
+
