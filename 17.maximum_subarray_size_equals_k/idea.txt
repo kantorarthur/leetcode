@@ -1,0 +1,8 @@
+Idea:
+Map the sum JUST AT THE EARLIEST OCCURANCE OF IT
+
+For example: If you find a sum that was already mapped,
+dont map it again, you want the largest subarray
+
+Space: O(n)
+Time: O(n)
