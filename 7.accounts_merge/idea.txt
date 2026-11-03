@@ -1,0 +1,39 @@
+Code explanation:
+
+find(self, x) -- If "x" it's not his own parent, it will go
+recursively to the top of the union to return the parent
+
+eg: We have this relation: 0 -> 1 -> 2 (0 it's the parent of 1
+and 2)
+
+We call: find(2) -- It will call:
+parents[2] -> there is 1
+parents[1] -> there is 0
+it will return 0
+
+union(child, parent) -- Basically makes the link above:
+parents[child] = parent
+
+if email in ownership -- here we check if the email
+was seen before
+
+if so, that means that it belongs to the same person
+so we union(i, ownership[email])
+
+owners[union_find.find(owner)].append(email) -- 
+basically we check every email and its owner (but like
+union find owner)
+
+eg: ['John', 'jon2@gmail.com', 'jon1@gmail.com'] - 0
+    ['John', 'jon2@gmail.com', 'jon@gmail.com'] - 1
+
+When we call union_find(1) - it will return 0
+When we call union_find(0) - it will return 0
+
+So owners[union_find(1) and (0)] will be the same list
+And also, we won't have duplicate emails because we use
+python sets
+
+Space complexity: O(E)
+Time complexity: O(E * logE)
+E - number of emails
