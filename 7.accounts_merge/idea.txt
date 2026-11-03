@@ -37,3 +37,7 @@ python sets
 Space complexity: O(E)
 Time complexity: O(E * logE)
 E - number of emails
+
+Really important to remember:
+We connect indeces to indeces when doing union in a 
+tree sort of way.

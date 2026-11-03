@@ -1,0 +1,19 @@
+So the description it's saying:
+
+"If i - j <= k and nums[i] == nums[j], return True"
+
+So we obv use a hashmap
+
+When we find a duplicate num we check:
+
+abs(i - j) <= k
+
+if true return true
+else
+
+map[num[i]] = i because we don't care about the last ind
+because if we would find another duplicate later, it will
+surely not be able to match we the ind we just checked
+
+Space: O(n)
+Time: O(n)
