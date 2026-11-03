@@ -1,0 +1,7 @@
+https://algo.monster/liteproblems/245
+
+Space: O(1)
+Time: O(n)
+
+Idea when word1 == word2:
+I update the words indices per turns
