@@ -1,0 +1,13 @@
+Idea:
+Store in a map of vectors all the indeces of words (at what indeces they appear)
+
+Then in function:
+get the vector of word1 and word2
+
+Then get the min of those
+
+--If i < j just ++i because no other combination can be < before
+and vice versa
+
+Space: O(n)
+Time: O(n)
