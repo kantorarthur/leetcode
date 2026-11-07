@@ -1,0 +1,14 @@
+Idea:
+Find all the start indices of **a** and **b** substrings in **s**
+
+The indices will be sorted in ascending order
+
+Binary search on b_substrings indices with target:
+
+i - k
+
+
+Space: O(n)
+Time: O(n + d * logk) where 
+k - number of b substrings in s
+d - number of a substrings in s 
