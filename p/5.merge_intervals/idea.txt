@@ -1,0 +1,15 @@
+Time complexity: O(nlogn)
+Space complexity: O(n)
+
+Idea:
+
+1. Sort the interval by starting points
+
+2. Insert the interval in the "merged" list if:
+
+--merged is empty: its the first interval
+--intervals are not overlaping
+
+else:
+insert in merged[-1][1] = max(merged[-1][1], interval[1])
+
