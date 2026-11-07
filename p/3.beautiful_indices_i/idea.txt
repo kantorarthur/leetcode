@@ -1,0 +1,14 @@
+Idea:
+Find all the appereances of **a** and **b** in **s**
+
+After, with binary search search the index in appereances of b with target
+
+i - k
+
+because (j - i <= k)
+
+
+Time: O(n + d * log(p))
+Where d - number of appereances of a in s
+      p - number of appereances of b in s
+Space: O(n)
