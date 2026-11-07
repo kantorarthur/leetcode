@@ -1,0 +1,13 @@
+Idea:
+
+1. Convert the string to int(hours * 60  + mins) 
+
+2. Sort the converted to int array
+
+3. VERY IMPORTANT!! Begin the "min" with: (1440 - toString.back() + toString.front())
+
+4. After, compare (toString[i + 1] - toString[i]) with min
+because the array it's sorted and only consecutive values can match the condition
+
+Space: O(n)
+Time: O(n * logn)
