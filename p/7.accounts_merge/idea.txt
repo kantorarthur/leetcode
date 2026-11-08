@@ -1,0 +1,7 @@
+Idea:
+
+Do union on emails on the indeces of the account they relate to
+
+
+Space: O(n)
+Time: O(n)
