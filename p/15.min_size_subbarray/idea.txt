@@ -1,0 +1,10 @@
+Idea:
+Use two pointers (in a sliding window fashion)
+
+If currSum < target
+	++right
+because we need to increase the window size that's all the logic you have to remember
+
+
+Time: O(n)
+Space: O(1)
