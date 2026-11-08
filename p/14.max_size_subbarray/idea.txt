@@ -1,0 +1,11 @@
+Idea:
+
+Store the first appereance of a prefix sum
+
+Everytime you check a new number:
+
+Check if "current prefix sum - k" exists in the prefixes sum
+if so, check if its >= currentMaxSub
+
+Space: O(n)
+Time: O(n)
