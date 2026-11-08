@@ -1,0 +1,11 @@
+Idea:
+
+Compute the prefix sum at every iteration
+
+And check if you can compute
+(actual prefix sum + one of prefixes sums before) == k
+if so, increase the number of sub arrays by the amount of before prefixes you can do
+that with
+
+Time: O(n)
+Space: O(n)
